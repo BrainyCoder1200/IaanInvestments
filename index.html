@@ -11,168 +11,197 @@
 
   <!-- Header -->
   <header class="site-header">
-    <div class="header-container">
-      <a href="/" class="header-logo">
-        <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/laan_investments_logo.svg" alt="Laan Investments">
-      </a>
-    </div>
+    <a href="/" class="header-logo">
+      <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/laan_investments_logo.svg" alt="Laan Investments">
+    </a>
+    <nav class="nav-links">
+      <a href="#about" class="nav-link">Wie wij zijn</a>
+      <a href="#focus" class="nav-link">Wat zoeken wij</a>
+      <a href="#projects" class="nav-link">Projecten</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
   </header>
 
-  <!-- Navigation -->
-  <div class="nav-trigger js-nav-trigger">
-    <div class="burger">
-      <span></span>
-      <span></span>
-      <span></span>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/3bc3313e172e9bb6ee82f80f6dd2e01d7687f3f8.jpg.webp" alt="Hero Background">
     </div>
-  </div>
-
-  <div class="nav-overlay js-nav-overlay">
-    <ul class="nav-menu">
-      <li class="nav-item"><a href="#hero" class="nav-link js-nav-link">Home</a></li>
-      <li class="nav-item"><a href="#about" class="nav-link js-nav-link">Identiteit</a></li>
-      <li class="nav-item"><a href="#focus" class="nav-link js-nav-link">Kansen</a></li>
-      <li class="nav-item"><a href="#projects" class="nav-link js-nav-link">Resultaat</a></li>
-      <li class="nav-item"><a href="#contact" class="nav-link js-nav-link">Direct Contact</a></li>
-    </ul>
-  </div>
-
-  <!-- Hero Scene -->
-  <section id="hero" class="section hero">
-    <div class="bg-text">LAAN</div>
-    <div class="container hero__content">
-      <h1 class="hero__title">
-        Aandacht voor<br>
-        <span>wat waarde heeft</span>
-      </h1>
-      <a href="#contact" class="terminal__link" style="font-size: 18px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent); border-bottom: 1px solid var(--accent); padding-bottom: 5px;">Exploratie start hier</a>
-    </div>
-    <div class="hero__visual">
-      <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/3bc3313e172e9bb6ee82f80f6dd2e01d7687f3f8.jpg.webp" alt="Focus">
+    <div class="hero-content reveal-up">
+      <h1 class="hero-title">Aandacht voor<br><span>wat waarde heeft</span></h1>
+      <p class="hero-desc">Samen ontdekken we het echte potentieel van jouw vastgoed.</p>
+      <a href="#contact" class="btn btn-primary">Vrijblijvend kennismaken</a>
     </div>
   </section>
 
-  <!-- About Narrative Scene -->
-  <section id="about" class="section narrative">
-    <div class="bg-text">01</div>
+  <!-- Intro: Wie wij zijn -->
+  <section class="intro" id="about">
+    <div class="container intro-grid">
+      <div class="intro-image reveal-up">
+        <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Wie_wij_zijn.jpg.webp" alt="Wie wij zijn">
+      </div>
+      <div class="intro-text reveal-up">
+        <span class="section-tag">Wie wij zijn</span>
+        <h2 class="intro-title">Het begint met vertrouwen</h2>
+        <p>Wij geloven dat vastgoed meer is dan stenen en cijfers. Het draait om aandacht voor wat echt waarde heeft: de mensen, de locatie en de potentie van ieder pand. Vanuit die gedachte investeren wij in vastgoed waar verbetering, verduurzaming of transformatie het verschil maken.</p>
+        <p>We werken samen met pandeigenaren, adviseurs en mede-investeerders die deze visie met ons delen. Onze kracht ligt in het zien van mogelijkheden en het zorgvuldig realiseren ervan. Geen haast, geen snelle klappen, maar duurzame waardegroei waar iedereen beter van wordt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus: Wat zoeken wij (Sticky Cards) -->
+  <section class="focus-stacking" id="focus">
+    <div class="container focus-header reveal-up">
+      <span class="section-tag">Wat zoeken wij</span>
+      <h2 class="focus-title">Vastgoed met potentie, hier zien wij kansen</h2>
+      <p class="focus-desc">Wij zijn altijd opzoek naar panden waar toekomst in zit. Vastgoed dat beter kan presteren, duurzamer gemaakt of opnieuw ingedeeld kan worden.</p>
+    </div>
+    
     <div class="container">
-      <div class="narrative__grid">
-        <div class="narrative__image-float sc-reveal">
-          <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Wie_wij_zijn.jpg.webp" alt="Identity">
+      <div class="stack-wrapper">
+        <div class="stack-card">
+          <div class="stack-image">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Deventerweg-99-109-Zutphen-3.jpg.webp" alt="Focus 1">
+          </div>
+          <div class="stack-content">
+            <span class="stack-num">01</span>
+            <h3>Meerdere woonadressen op één perceel</h3>
+          </div>
         </div>
-        <div class="narrative__text">
-          <span class="section-tag">Wie wij zijn</span>
-          <h2 class="category-title sc-reveal">Het begint met vertrouwen</h2>
-          <p class="section-body sc-reveal" style="margin-top: 40px; font-size: 20px;">
-            Wij geloven dat vastgoed meer is dan stenen en cijfers. Het draait om aandacht voor wat echt waarde heeft: de mensen, de locatie en de potentie van ieder pand.
-          </p>
-          <p class="section-body sc-reveal" style="margin-top: 24px;">
-            Vanuit die gedachte investeren wij in vastgoed waar verbetering, verduurzaming of transformatie het verschil maken. Geen haast, geen snelle klappen, maar duurzame waardegroei waar iedereen beter van wordt.
-          </p>
+        <div class="stack-card">
+          <div class="stack-image">
+             <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/102b8eaedc8af9e9e4855c26b0db3d0293da6306.jpg.webp" alt="Focus 2">
+          </div>
+          <div class="stack-content">
+            <span class="stack-num">02</span>
+            <h3>Gemengd gebruik (wonen, winkel, kantoor)</h3>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-image">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Groenestraat-65-Rheden-14.jpg.webp" alt="Focus 3">
+          </div>
+          <div class="stack-content">
+            <span class="stack-num">03</span>
+            <h3>Kleine of restportefeuilles</h3>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-image">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/248d73f01af838fcc1f547b299c9139dba419a95.jpg.webp" alt="Focus 4">
+          </div>
+          <div class="stack-content">
+            <span class="stack-num">04</span>
+            <h3>Verouderd of te verduurzamen vastgoed</h3>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-image">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/383af3675aacbc5741e358f68f2e355a521be5cb.jpg.webp" alt="Focus 5">
+          </div>
+          <div class="stack-content">
+            <span class="stack-num">05</span>
+            <h3>Splitsen, herindelen of functieverandering</h3>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Categories Scene -->
-  <section id="focus" class="section categories">
-    <div class="bg-text">02</div>
+  <!-- Projects: Projecten -->
+  <section class="projects" id="projects">
     <div class="container">
-      <span class="section-tag">Wat wij zoeken</span>
-      <div class="category-row sc-reveal">
-        <span class="category-num">01</span>
-        <h2 class="category-title">Meerdere woonadressen op één perceel</h2>
+      <div class="projects-header reveal-up">
+        <div>
+          <span class="section-tag">Projecten</span>
+          <h2 class="intro-title">Waarde in ontwikkeling</h2>
+        </div>
       </div>
-      <div class="category-row sc-reveal">
-        <span class="category-num">02</span>
-        <h2 class="category-title">Gemengd gebruik (Wonen/Winkel/Kantoor)</h2>
-      </div>
-      <div class="category-row sc-reveal">
-        <span class="category-num">03</span>
-        <h2 class="category-title">Kleine of restportefeuilles</h2>
-      </div>
-      <div class="category-row sc-reveal">
-        <span class="category-num">04</span>
-        <h2 class="category-title">Verouderd of te verduurzamen vastgoed</h2>
-      </div>
-      <div class="category-row sc-reveal">
-        <span class="category-num">05</span>
-        <h2 class="category-title">Splitsen, herindelen of transformeren</h2>
+
+      <div class="project-grid">
+        <a href="#" class="project-card reveal-up">
+          <div class="project-img-wrap">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Groenestraat-65-Rheden-14-1.jpg.webp" alt="Project Rheden">
+          </div>
+          <p class="project-meta">Rheden</p>
+          <h3 class="project-title">Groenestraat 63–67</h3>
+          <p class="project-desc">Een portefeuille van vier uiteenlopende objecten, met kansen in indeling, verhuur en herontwikkeling.</p>
+        </a>
+
+        <a href="#" class="project-card reveal-up">
+          <div class="project-img-wrap">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Deventerweg-99-109-Zutphen-3.jpg.webp" alt="Project Zutphen">
+          </div>
+          <p class="project-meta">Zutphen</p>
+          <h3 class="project-title">Deventerweg 99–109</h3>
+          <p class="project-desc">Een karakteristiek pand met meerdere adressen, waarin we de indelingsmogelijkheden en toekomstpotentie inzichtelijk maakten.</p>
+        </a>
+
+        <a href="#" class="project-card reveal-up">
+          <div class="project-img-wrap">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/1_Grote_Kerkstraat_11_Meppel.jpg.webp" alt="Project Meppel">
+          </div>
+          <p class="project-meta">Meppel</p>
+          <h3 class="project-title">Grote Kerkstraat 11–11D</h3>
+          <p class="project-desc">Winkel met vier appartementen in het centrum, met duidelijke kansen voor modernisering en duurzame waardeontwikkeling.</p>
+        </a>
+
+        <a href="#" class="project-card reveal-up">
+          <div class="project-img-wrap">
+            <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Molenstraat-24.jpg.webp" alt="Project Lochem">
+          </div>
+          <p class="project-meta">Lochem</p>
+          <h3 class="project-title">Molenstraat 24–24B</h3>
+          <p class="project-desc">Winkel met twee bovenwoningen, waarin mogelijkheden liggen voor verduurzaming, indeling en verdere optimalisatie.</p>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- Mosaic Showcase Scene -->
-  <section id="projects" class="section mosaic">
-    <div class="bg-text">03</div>
+  <!-- Contact: Form Structure -->
+  <section class="contact-action" id="contact">
     <div class="container">
-      <span class="section-tag">Geselecteerde Projecten</span>
-      <div class="mosaic__grid">
-        <div class="mosaic__item m-large sc-reveal">
-          <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Groenestraat-65-Rheden-14-1.jpg.webp" alt="Rheden">
-          <div class="mosaic__content">
-            <span class="section-tag" style="color:#fff">Rheden</span>
-            <h3>Groenestraat 63–67</h3>
-          </div>
-        </div>
-        <div class="mosaic__item m-square sc-reveal">
-          <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Deventerweg-99-109-Zutphen-3.jpg.webp" alt="Zutphen">
-          <div class="mosaic__content">
-            <h3>Zutphen Portfolio</h3>
-          </div>
-        </div>
-        <div class="mosaic__item m-square sc-reveal">
-          <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/1_Grote_Kerkstraat_11_Meppel.jpg.webp" alt="Meppel">
-          <div class="mosaic__content">
-            <h3>Centrum Meppel</h3>
-          </div>
-        </div>
-        <div class="mosaic__item m-tall sc-reveal">
-          <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/Molenstraat-24.jpg.webp" alt="Lochem">
-          <div class="mosaic__content">
-            <h3>Molenstraat Lochem</h3>
-          </div>
-        </div>
-        <div class="mosaic__item m-wide sc-reveal">
-          <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/2.-Faradaystraat-17-8.jpg.webp" alt="Zwolle">
-          <div class="mosaic__content">
-            <h3>Transformati Zwolle</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Scene -->
-  <section id="contact" class="section terminal">
-    <div class="bg-text">END</div>
-    <div class="container" style="text-align: center;">
-      <h2 class="terminal__title sc-reveal">Laten we<br><span>praten</span></h2>
-      
-      <div class="interaction-form sc-reveal">
-        <form action="#">
-          <div class="form-group">
-            <input type="text" placeholder="Naam" required>
+      <div class="contact-box reveal-up">
+        <span class="section-tag">Kom in contact</span>
+        <h2 class="contact-title">Laten we praten</h2>
+        
+        <form class="interaction-form" action="#" method="POST">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="naam">Naam</label>
+              <input type="text" id="naam" placeholder="Uw naam" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mailadres</label>
+              <input type="email" id="email" placeholder="Uw e-mailadres" required>
+            </div>
           </div>
           <div class="form-group">
-            <input type="email" placeholder="E-mailadres" required>
+            <label for="bericht">Bericht</label>
+            <textarea id="bericht" rows="4" placeholder="Waar kunnen we u mee helpen?" required></textarea>
           </div>
-          <div class="form-group">
-            <textarea placeholder="Waar kunnen we u mee helpen?" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="contact-btn" style="width: 100%;">Verstuur Bericht</button>
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 16px;">Verstuur Bericht</button>
         </form>
-      </div>
 
-      <div class="sc-reveal" style="margin-top: 60px;">
-        <p style="color: var(--text-dim);">
-          038 785 47 62 — info@laaninvestments.nl<br>
-          Laan Investments BV &copy; 2026
-        </p>
+        <p class="contact-info">Of neem direct contact op: <br>038 785 47 62 — <a href="mailto:info@laaninvestments.nl">info@laaninvestments.nl</a></p>
       </div>
     </div>
   </section>
 
-  <script type="module" src="main.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <img src="https://laaninvestments.nl/wp-content/uploads/2026/01/laan_investments_logo.svg" alt="Laan" class="footer-logo">
+        <p class="footer-text">Samen met pandeigenaren, adviseurs en mede-investeerders bouwen we aan toekomstbestendig vastgoed dat rendeert.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Laan Investments BV</p>
+        <p>Aandacht voor wat waarde heeft.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
